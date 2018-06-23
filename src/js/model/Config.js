@@ -1,0 +1,16 @@
+export default {
+    SHAPE_TYPES : ["3","4","circle","ellipse","5","6"],
+	INIT_NUMBER_OF_SHAPES: 10,
+
+    INITIAL_SPEED_FALLING : 0.0,
+    INITIAL_GRAVITY : 0.02,
+
+    FIELD_WIDTH : 700,
+    FIELD_HEIGHT : 500,
+
+    SHAPE_MIN_WIDTH : 50,
+    SHAPE_MIN_HEIGHT : 50,
+
+    SHAPE_MAX_WIDTH : 100,
+    SHAPE_MAX_HEIGHT : 100
+};
