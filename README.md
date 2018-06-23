@@ -18,7 +18,7 @@ Steps to run:
 
 1. clone project
 2. run terminal in the same folder
-3. type npm install
-4. type npm dev
+3. type: npm install
+4. type: gulp watch
 
 5. that's it!!!
