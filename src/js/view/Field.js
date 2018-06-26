@@ -105,9 +105,6 @@ export default class Field extends VisualObject {
 
     update() {
         for (let i = 0; i < this.currentShapesList.length; i++) {
-            if(!this.currentShapesList[i]) {
-                console.log("ASD");
-            }
             if(!this.currentShapesList[i].fieldVisibled) {
                 if(this.currentShapesList[i].y + this.currentShapesList[i].height + 5 > this.y) {
                     this.currentShapesList[i].fieldVisibled = true;
