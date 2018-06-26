@@ -64,7 +64,6 @@ export default class Field extends VisualObject {
         shape.build(shapeType, randomColour, gravity);
         shape.y = y == -1 ? shape.y = -(shape.height + 100) : y - shape.height / 2;
         shape.x = x == -1 ? shape.x = Math.random() * (Config.FIELD_WIDTH - shape.width) : x - shape.width / 2;
-        console.log(shape.x, shape.y);
     }
 
 
